@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="stylecart.css" />
+        <meta name="viewport" content="width=100%, initial-scale=100%"/>
+       <!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<!-- custom css file link  -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- custom css file link  -->
+<link rel="stylesheet" href="css/stylecart.css">
+<!-- custom css file link  -->
+<link rel="stylesheet" href="css/shop.css">
+
+        <title>Cart-GamingWorld</title>
+    </head>
+    
+    <body>
+        <header>
+
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+        
+    
+            <a href="home.html" class="logo">flower<span>Store</span></a>
+                
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="about.html">about</a>
+                <a href="products.html">products</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+            </nav>
+        
+            <div class="icons">
+
+                <a href="shop.html" class="fas fa-shopping-cart"></a>
+                <input type="text"id=panier value="0" style="width:11px">
+                <a href="contact.html" class="fas fa-user"></a>
+        
+            </div>
+        
+        </header>
+      <main>
+        <div class="items" id="parent">
+            <div class='Item' id='child'> 
+                <img src="images/img-3.jpg" alt="game cover">
+                <p class="description">Power Love</p>
+                <div class="quantity">     
+                    <button class="minus-btn" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-square" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                      </svg></button>
+                    <input type="text" class="Quant"  value=" 1" id="q1">
+                    <button class="plus-btn" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                      </svg></button>
+                </div>
+                <p class="price" id="p1"> 120 </p>
+                <button class="delete">x</button>
+            </div>
+            <div class="Item" id='child'>
+                <img src="images/img-2.jpg" alt="controller">
+                <p class="description">Fiançaillest</p>
+                </p>
+                <div class="quantity">     
+                    <button class="minus-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                          </svg>
+                    </button>
+                    <input type="text" class="Quant"  value=" 1" id="q2">
+                    <button class="plus-btn"   id= "add">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                          </svg>
+                    </button>
+                </div>
+                <p class="price" id="p2"> 90 </p>
+                <button class="delete"> x </button>
+            </div>
+            <div class="Item" id='child'>
+                <img src="images/img-5.jpg" alt="PSPlus">
+                <p class="description">Black And White</p>
+                <div class="quantity"> 
+                    <button class="minus-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                          </svg>
+                    </button>
+                    <input type="text" class="Quant"  value=" 1" id='q3'>
+                    <button class="plus-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                          </svg>
+                    </button>
+                </div>
+                <p class="price" id='p3'> 135 </p>
+                <button class="delete"> x </button>
+            </div>
+            <div class="Item" id='child'>
+                <img src="images/img-7.jpg" alt="PS5 headset">
+                <p class="description"> Flower Yellow </p>
+                <div class="quantity"> 
+                    <button class="minus-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                          </svg>
+                    </button>
+                    <input type="text" class="Quant"  value=" 1" id='q4'>
+                    <button class="plus-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                          </svg>
+                    </button>
+                </div>
+                <p class="price" id='p4'> 54 </p>
+                <button class="delete"> x </button>
+            </div>
+        </div>
+        <div id="total-price">
+            <p>Total : </p>
+            <input type="text" id ="finalPrice" value="350">
+        </div>
+      </main>
+   
+    <!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my favorite</a>
+        </div>
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">tunisia</a>
+            <a href="#">Gabes </a>
+        
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+21629309483</a>
+            <a href="#">ekram.selmii@gmail.com</a>
+            <a href="#">tunisia</a>
+            <img src="images/payment.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>selmi ekram</span> | all rights reserved </div>
+
+</section>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js" defer></script>
+<!-- custom js file link  -->
+<script src="js/scriptcart.js" defer></script>
+<!-- custom js file link  -->
+<script src="js/somme.js" defer></script>
+
+    </body>
+</html>
